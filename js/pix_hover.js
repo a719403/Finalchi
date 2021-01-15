@@ -184,11 +184,12 @@ $(document).ready(function(){
         }, function(){  
         $(this).attr('src','./flim_img/500t/壓縮/000037.jpg');  
       });
-$("#000267090003").hover(function(){  
-      $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090003.jpg');  
-      }, function(){  
-      $(this).attr('src','./img/flim_img/lomo/壓縮/000267090003.jpg');  
-    });
+    //lomo才對
+      $("#000267090003").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090003.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090003.jpg');  
+       });
 
       $("#000267090005").hover(function(){  
         $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090005.jpg');  
