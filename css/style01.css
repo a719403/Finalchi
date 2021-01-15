@@ -1,0 +1,615 @@
+body{
+    /* padding-top: 20px; */
+    color: #617140;
+    font-weight: 400;
+    background-color: #cca27f;
+    background-image: url(../img/bg_L_kraft_paper.jpg);
+    background-size: 100%;
+    /* backgr ound-position: right center; */
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+#bg2{
+
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    background: url(../img/bg_L_watermark.jpg);
+    filter: drop-shadow(175px -1px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content :space-around; 
+
+}
+
+
+    /* 盒子區 */
+.box_button{
+    /* margin-right: 10%; */
+    width: 25%;
+    display: flex;
+    flex-direction:row-reverse;
+    /* background-color: aqua; */
+    margin-top: 12%;
+}
+
+.box_labels{
+    /* width: 70%; */
+    display: flex;
+    flex-direction:column;
+}
+
+.box_L_seagull{
+    overflow:scroll;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    /* justify-content :center; */
+    /* position: absolute; */
+    margin-left: 4%;
+} 
+
+.box_L_pix{
+    overflow:scroll;
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content :center;
+}
+
+ul.scrollpic{
+
+    padding: 0;
+    margin: 0 auto;
+}
+
+.scrollpic{
+    box-sizing: border-box;
+    position: fixed;
+    overflow: scroll;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content :space-between;
+    margin: 0 auto;
+
+}
+
+
+ul>img{
+
+    margin: 0 auto;
+
+}
+
+
+.L_logo{
+    position: absolute;
+    width: 23.4%;
+    height: auto;
+    left: 10px;
+    top: 6.66%;
+}
+
+
+.L_seagull{
+    width:80%;
+    padding: 3% 0%;
+  
+    margin-left: 10%;
+}
+
+.seagull_text{
+    
+    font-size: 18px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /* CONTENT
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    
+    /* letter-spacing: 0.15em; */
+    line-height: 150%;
+    color: #000000;
+}
+.flim{
+    width:80%;
+    height: auto;
+    padding: 3% 3%;
+    transition: transform 0.5s;
+}
+.strip{
+    box-sizing: border-box;
+    width: 75%;
+    height: 100%;
+}
+
+
+.labels{
+    /* width: 100%; */
+    height: auto;
+    float: right;
+    padding-bottom: 5%;
+}
+
+
+
+.bigul{
+
+    width: 200px;
+    height: 100px;
+    background-color: #BC5148;
+    border-radius: 10px;
+    color: #C9C6BD;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px auto 10px auto;
+    padding: 25px 50px;
+
+}
+
+
+
+
+    /* 事件區 */
+
+    /*這個隱藏捲動軸*/
+.box_L_seagull::-webkit-scrollbar {
+    display: none;    
+} 
+.scrollpic::-webkit-scrollbar{
+    display: none;
+}
+.box_L_pix::-webkit-scrollbar {
+    display: none;
+}
+
+    /* hover區 */
+.flim:hover{
+	transform: scale(1.1);
+}
+
+.hover{
+    padding-right: -15%;
+}
+
+.unhover{
+
+    float: right;
+
+}/*靠右對齊*/
+
+
+.table{
+
+    width: 100%;
+
+}
+
+@media(max-width:768px){
+
+    body{
+        /* padding-top: 20px; */
+        color: #617140;
+        font-weight: 400;
+        background-color: #cca27f;
+        background-image: url(../img/bg_L_kraft_paper.jpg);
+        background-size: 100%;
+        /* backgr ound-position: right center; */
+        background-repeat: no-repeat;
+        display: flex;
+        
+    }
+    
+    #bg2{
+    
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        right: 0px;
+        top: 0px;
+        background: url(../img/bg_L_watermark.jpg);
+        filter: drop-shadow(175px -1px 4px rgba(0, 0, 0, 0.25));
+        display: flex;
+        justify-content :space-around; 
+    
+    }
+    
+    
+        /* 盒子區 */
+    .box_button{
+        /* margin-right: 10%; */
+        width: 25%;
+        display: flex;
+        flex-direction:row-reverse;
+        /* background-color: aqua; */
+        margin-top: 12%;
+    }
+    
+    .box_labels{
+        /* width: 70%; */
+        display: flex;
+        flex-direction:column;
+        margin-top: 50px;
+    }
+    
+    .box_L_seagull{
+        overflow:scroll;
+        box-sizing: border-box;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        /* justify-content :center; */
+        /* position: absolute; */
+        margin-left: 4%;
+    } 
+    
+    .box_L_pix{
+        overflow:scroll;
+        box-sizing: border-box;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content :center;
+    }
+    
+    ul.scrollpic{
+    
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .scrollpic{
+        box-sizing: border-box;
+        position: fixed;
+        overflow: scroll;
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content :space-between;
+        margin: 0 auto;
+    
+    }
+    
+    
+    ul>img{
+    
+        margin: 0 auto;
+    
+    }
+    
+    
+    .L_logo{
+        position: absolute;
+        width: 23.4%;
+        height: auto;
+        left: 10px;
+        top: 6.66%;
+    }
+    
+    
+    .L_seagull{
+        width:80%;
+        padding: 3% 0%;
+      
+        margin-left: 10%;
+    }
+    
+    .seagull_text{
+        
+        font-size: 18px;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        /* CONTENT
+        font-family: Advent Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 20px */
+        
+        /* letter-spacing: 0.15em; */
+        line-height: 150%;
+        color: #000000;
+    }
+    .flim{
+        width:80%;
+        height: auto;
+        padding: 3% 3%;
+        transition: transform 0.5s;
+    }
+    .strip{
+        box-sizing: border-box;
+        width: 75%;
+        height: 100%;
+    }
+    
+    
+    .labels{
+        /* width: 100%; */
+        height: auto;
+        float: right;
+        padding-bottom: 5%;
+    }
+    
+    
+    
+    .bigul{
+    
+        width: 200px;
+        height: 100px;
+        background-color: #BC5148;
+        border-radius: 10px;
+        color: #C9C6BD;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin: 80px auto 10px auto;
+        padding: 25px 50px;
+    
+    }
+    
+    
+    
+    
+        /* 事件區 */
+    
+        /*這個隱藏捲動軸*/
+    .box_L_seagull::-webkit-scrollbar {
+        display: none;    
+    } 
+    .scrollpic::-webkit-scrollbar{
+        display: none;
+    }
+    .box_L_pix::-webkit-scrollbar {
+        display: none;
+    }
+    
+        /* hover區 */
+    .flim:hover{
+        transform: scale(1.1);
+    }
+    
+    .hover{
+        padding-right: -15%;
+    }
+    
+    .unhover{
+    
+        float: right;
+    
+    }/*靠右對齊*/
+    
+    
+    .table{
+    
+        width: 100%;
+    
+    }
+
+
+}
+
+
+@media(max-width:320px){
+
+    body{
+        /* padding-top: 20px; */
+        color: #617140;
+        font-weight: 400;
+        background-color: #cca27f;
+        background-image: url(../img/bg_L_kraft_paper.jpg);
+        background-size: 100%;
+        /* backgr ound-position: right center; */
+        background-repeat: no-repeat;
+        display: flex;
+        
+    }
+    
+    #bg2{
+    
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        right: 0px;
+        top: 0px;
+        background: url(../img/bg_L_watermark.jpg);
+        filter: drop-shadow(175px -1px 4px rgba(0, 0, 0, 0.25));
+        display: flex;
+        justify-content :space-around; 
+    
+    }
+    
+    
+        /* 盒子區 */
+    .box_button{
+        /* margin-right: 10%; */
+        width: 25%;
+        display: flex;
+        flex-direction:row-reverse;
+        /* background-color: aqua; */
+        margin-top: 12%;
+    }
+    
+    .box_labels{
+        /* width: 70%; */
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .box_L_seagull{
+        overflow:scroll;
+        box-sizing: border-box;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        /* justify-content :center; */
+        /* position: absolute; */
+        margin-left: 4%;
+    } 
+    
+    .box_L_pix{
+        overflow:scroll;
+        box-sizing: border-box;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content :center;
+    }
+    
+    ul.scrollpic{
+    
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .scrollpic{
+
+        box-sizing: border-box;
+        position: fixed;
+        overflow: scroll;
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        margin: 0 auto;
+    
+    }
+    
+    
+    ul>img{
+    
+        margin: 0 auto;
+    
+    }
+    
+    
+    .L_logo{
+        position: absolute;
+        width: 23.4%;
+        height: auto;
+        left: 10px;
+        top: 6.66%;
+    }
+    
+    
+    .L_seagull{
+        width:80%;
+        padding: 3% 0%;
+      
+        margin-left: 10%;
+    }
+    
+    .seagull_text{
+        
+        font-size: 16px;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        /* CONTENT
+        font-family: Advent Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 20px */
+        
+        /* letter-spacing: 0.15em; */
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .flim{
+        width:80%;
+        height: auto;
+        padding: 3% 3%;
+        transition: transform 0.5s;
+    }
+    .strip{
+        box-sizing: border-box;
+        width: 75%;
+        height: 100%;
+    }
+    
+    
+    .labels{
+        /* width: 100%; */
+        height: auto;
+        float: right;
+        padding-bottom: 5%;
+    }
+    
+    
+    
+    .bigul{
+    
+        width: 120px;
+        height: 80px;
+        background-color: #BC5148;
+        border-radius: 10px;
+        color: #C9C6BD;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin: 40px auto 10px auto;
+        padding: 15px 20px;
+    
+    }
+    
+    
+    
+    
+        /* 事件區 */
+    
+        /*這個隱藏捲動軸*/
+    .box_L_seagull::-webkit-scrollbar {
+        display: none;    
+    } 
+    .scrollpic::-webkit-scrollbar{
+        display: none;
+    }
+    .box_L_pix::-webkit-scrollbar {
+        display: none;
+    }
+    
+        /* hover區 */
+    .flim:hover{
+        transform: scale(1.1);
+    }
+    
+    .hover{
+        padding-right: -15%;
+    }
+    
+    .unhover{
+    
+        float: right;
+    
+    }/*靠右對齊*/
+    
+    
+    .table{
+    
+        width: 100%;
+    
+    }
+
+}

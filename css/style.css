@@ -1,0 +1,267 @@
+body{
+    /* padding-top: 20px; */
+    color: #617140;
+    font-weight: 400;
+    background-color: #cca27f;
+    background-image: url(../img/bg_L_kraft_paper.jpg);
+    background-size: 100%;
+    /* background-position: right center; */
+    background-repeat: no-repeat;
+}
+
+body.container{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.oo1{
+
+    width: 100%;
+    margin-top: 200px;
+
+}
+
+img.chichi{
+
+    width: 100%;
+    z-index: 2;
+    margin: 0 auto;
+    float: center;
+
+}
+
+.button{
+
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 50px;
+
+}
+
+.button01{
+
+    text-decoration: none;
+    border: 5px #4b4949 solid;
+    border-radius: 10px;
+    width: 255px;
+    padding: 25px;
+    color: #4b4949;
+
+}
+
+.button01:hover ,.button02:hover{
+
+    text-decoration: none;
+    border: 5px #BC5148 solid;
+    background-color: #BC5148;
+    border-radius: 10px;
+    width: 255px;
+    padding: 25px;
+    color: #c9c6bd;    
+
+}
+
+.button02{
+
+    text-decoration: none;
+    border: 5px #4b4949  solid;
+    border-radius: 10px;
+    margin-left: 180px;
+    padding: 25px;
+    width: 255px;
+    color: #4b4949;
+
+}
+
+
+@media(max-width:768px){
+
+    body{
+        /* padding-top: 20px; */
+        color: #617140;
+        font-weight: 400;
+        background-color: #cca27f;
+        background-image: url(../img/bg_L_kraft_paper.jpg);
+        background-size: 100%;
+        /* background-position: right center; */
+        background-repeat: no-repeat;
+    }
+
+    body.container{
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .oo1{
+
+        width: 100%;
+        margin-left: 0;
+        margin-top: 100px;
+    
+    }
+    
+    .chichi{
+
+        width: 768px;
+        z-index: 2;
+        margin: 0 auto;
+    
+    }
+
+    .button{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 28px;
+
+    }
+
+    .button01{
+
+        text-decoration: none;
+        border: 4px #4b4949 solid;
+        border-radius: 10px;
+        padding: 15px;
+        width: 220px;
+
+    }
+
+    .button02{
+
+        text-decoration: none;
+        border: 4px #4b4949 solid;
+        border-radius: 10px;
+        padding: 15px;
+        margin-left: 50px;
+        width: 220px;
+
+    }
+
+    .button01:hover, .button02:hover{
+
+        text-decoration: none;
+        border: 4px #BC5148 solid;
+        border-radius: 10px;
+        padding: 15px;
+        width: 220px;
+        color: #c9c6bd;
+    
+    }
+
+}
+
+
+@media(max-width:540px){
+
+    body{
+        /* padding-top: 20px; */
+        color: #617140;
+        font-weight: 400;
+        background-color: #cca27f;
+        background-image: url(../img/bg_L_kraft_paper.jpg);
+        background-size: 100%;
+        /* background-position: right center; */
+        background-repeat: no-repeat;
+    }
+    
+
+    body.container{
+
+        padding: 0;
+    }
+
+    .oo1{
+
+        width: 100%;
+        margin-top: 100px;
+        margin: auto;
+    
+    }
+
+    .chichi{
+
+        width: 100%;
+        margin-top: 5px;
+
+    }
+
+    .button{
+
+        
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 0em;
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+
+    .button01{
+
+        text-decoration: none;
+        border: 4px #4b4949 solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 5px;
+        width: 155px;
+
+    }
+
+    .button02{
+
+        text-decoration: none;
+        border: 4px #4b4949 solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 0;
+        margin-top: 10px;
+        width: 155px;
+
+    }
+
+    .button01:hover{
+
+        text-decoration: none;
+        border: 4px #BC5148 solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 5px;
+        width: 155px;
+        color: #c9c6bd;
+
+    }
+
+    .button02:hover{
+
+        text-decoration: none;
+        border: 4px #BC5148 solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 0;
+        margin-top: 10px;
+        width: 155px;
+        color: #c9c6bd;
+
+    }
+
+}
