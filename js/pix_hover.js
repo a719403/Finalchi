@@ -184,6 +184,65 @@ $(document).ready(function(){
         }, function(){  
         $(this).attr('src','./flim_img/500t/壓縮/000037.jpg');  
       });
+$("#000267090003").hover(function(){  
+      $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090003.jpg');  
+      }, function(){  
+      $(this).attr('src','./img/flim_img/lomo/壓縮/000267090003.jpg');  
+    });
+
+      $("#000267090005").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090005.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090005.jpg');  
+      });  
+      
+      $("#000267090006").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090006.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090006.jpg');  
+      });
+
+      $("#000267090015").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090015.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090015.jpg');  
+      });
+
+      $("#000267090018").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090018.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090018.jpg');  
+      });
+ 
+      $("#000267090022").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090022.jpg');  
+        }, function(){  
+        $(this).attr('src','./flim_img/500t/壓縮/000024.jpg');  
+      });
+
+      $("#000267090024").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090024.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090024.jpg');  
+      });
+
+      $("#000267090025").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090025.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090025.jpg');  
+      });
+
+      $("#000267090034").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090034.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090034.jpg');  
+      });
+
+      $("#000267090037").hover(function(){  
+        $(this).attr('src','./img/colorful_img/lomo/壓縮/000267090037.jpg');  
+        }, function(){  
+        $(this).attr('src','./img/flim_img/lomo/壓縮/000267090037.jpg');  
+      });    
       
 });
 
