@@ -210,7 +210,8 @@ img.chichi{
         align-items: center;
         text-align: center;
         flex-direction: column;
-        margin-top: 15%;
+        margin-top: 0em;
+        padding-top: 10%;
         font-weight: bold;
         font-size: 18px;
 
